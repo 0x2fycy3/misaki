@@ -89,10 +89,11 @@ run_step() {
     fi
 }
 
-run_step "1/4  Packages"  "scripts/packages.sh"
-run_step "2/4  Dotfiles"  "scripts/dotfiles.sh"
-run_step "3/4  Services"  "scripts/services.sh"
-run_step "4/4  IME"       "scripts/ime.sh"
+run_step "1/5  Packages"  "scripts/packages.sh"
+run_step "2/5  Dotfiles"  "scripts/dotfiles.sh"
+run_step "3/5  Services"  "scripts/services.sh"
+run_step "4/5  IME"       "scripts/ime.sh"
+run_step "5/5  Doom"      "scripts/doom.sh"
 
 # ─── Done ─────────────────────────────────────────────────────────────────────
 echo ""
