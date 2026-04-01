@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/endeavouros-team/endeavouros-branding/main/endeavouros-symbol/endeavouros-logo.svg" height="72" alt="EndeavourOS" />
-
 # misaki
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/EndeavourOS_Logo.svg" height="72" alt="EndeavourOS" />
+
 **Personal bootstrap for EndeavourOS + i3wm**  
-Opinionated. Reproducible. Fast.
+Opinionated. Reproducible.
 
 [![EndeavourOS](https://img.shields.io/badge/EndeavourOS-7B2FBE?style=flat-square&logo=linux&logoColor=white)](https://endeavouros.com)
 [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white)](https://archlinux.org)
