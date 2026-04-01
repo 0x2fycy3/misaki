@@ -1,0 +1,296 @@
+# ╔══════════════════════════════════════════════════════════════╗
+# ║               misaki — pacman package list                   ║
+# ║        EndeavourOS (i3wm) · Arch-based · reproducible        ║
+# ╚══════════════════════════════════════════════════════════════╝
+
+# === Core / Build ===
+base-devel
+git
+wget
+rsync
+sudo
+
+# === Shell ===
+zsh
+bash-completion
+nano
+nano-syntax-highlighting
+
+# === Terminal Emulators ===
+xfce4-terminal
+rxvt-unicode
+xterm
+
+# === System Monitoring / Info ===
+htop
+btop
+glances
+fastfetch
+duf
+dysk
+inxi
+cmatrix
+cava
+
+# === i3 / Window Manager ===
+i3-wm
+i3blocks
+i3status
+rofi
+dunst
+feh
+dex
+xss-lock
+numlockx
+arandr
+xbindkeys
+brightnessctl
+playerctl
+polkit-gnome
+libwnck3
+archlinux-xdg-menu
+dmenu
+
+# === Display / X11 ===
+xorg-server
+xorg-server-xvfb
+xorg-xinit
+xorg-xrandr
+xorg-xinput
+xorg-xkill
+xorg-xdpyinfo
+xf86-input-libinput
+vulkan-intel
+mesa-utils
+
+# === Display Manager ===
+lightdm
+lightdm-slick-greeter
+
+# === Audio ===
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber
+pavucontrol
+rtkit
+alsa-utils
+alsa-plugins
+alsa-firmware
+
+# === Network ===
+networkmanager
+network-manager-applet
+networkmanager-openvpn
+networkmanager-openconnect
+openssh
+wireguard-tools
+firewalld
+iwd
+netctl
+wpa_supplicant
+dnsmasq
+bind
+mullvad-vpn
+nfs-utils
+xl2tpd
+modemmanager
+
+# === Bluetooth ===
+blueman
+bluez-utils
+
+# === File Manager ===
+thunar
+thunar-archive-plugin
+thunar-volman
+tumbler
+gvfs
+gvfs-mtp
+gvfs-afc
+gvfs-gphoto2
+gvfs-smb
+gvfs-nfs
+ffmpegthumbnailer
+libgsf
+libopenraw
+xarchiver
+gnome-disk-utility
+gparted
+
+# === Fonts — Base ===
+noto-fonts
+noto-fonts-emoji
+noto-fonts-extra
+ttf-dejavu
+ttf-liberation
+ttf-opensans
+ttf-bitstream-vera
+cantarell-fonts
+awesome-terminal-fonts
+gsfonts
+
+# === Fonts — CJK / Chinese ===
+noto-fonts-cjk
+adobe-source-han-sans-cn-fonts
+adobe-source-han-serif-cn-fonts
+wqy-microhei
+wqy-microhei-lite
+wqy-bitmapfont
+wqy-zenhei
+ttf-arphic-ukai
+ttf-arphic-uming
+
+# === IME — Chinese Input (fcitx5) ===
+fcitx5
+fcitx5-chinese-addons
+fcitx5-configtool
+fcitx5-gtk
+fcitx5-qt
+
+# === Browsers ===
+firefox
+chromium
+
+# === Development ===
+neovim
+emacs
+zed
+code
+python
+python-poetry-core
+python-pyqt6
+python-jinja
+python-packaging
+python-defusedxml
+python-sphinx
+postgresql
+dbeaver
+jq
+meld
+tldr
+pv
+swig
+tk
+diffutils
+
+# === Cloud / Sync ===
+nextcloud
+nextcloud-client
+
+# === Media ===
+mpv
+obs-studio
+spotify-launcher
+spotify-player
+libdvdcss
+gst-libav
+gst-plugin-pipewire
+gst-plugins-bad
+gst-plugins-ugly
+
+# === Office / Productivity ===
+libreoffice-fresh
+calibre
+obsidian
+okular
+foliate
+galculator
+gthumb
+xed
+aspell
+anki
+
+# === Screenshot / Screen ===
+scrot
+flameshot
+
+# === Communication ===
+telegram-desktop
+discord
+
+# === Virtualization ===
+virtualbox
+virtualbox-host-modules-arch
+flatpak
+
+# === Crypto / Finance ===
+electrum
+
+# === Printing ===
+cups
+cups-browsed
+cups-filters
+cups-pdf
+system-config-printer
+foomatic-db
+foomatic-db-engine
+foomatic-db-nonfree
+foomatic-db-nonfree-ppds
+foomatic-db-ppds
+foomatic-db-gutenprint-ppds
+ghostscript
+gutenprint
+splix
+
+# === CLI Utilities ===
+translate-shell
+zip
+unzip
+unrar
+xdg-utils
+xdg-user-dirs
+xdg-user-dirs-gtk
+xclip
+wine
+rsync
+plocate
+pkgfile
+
+# === Hardware / System ===
+acpi
+intel-ucode
+upower
+power-profiles-daemon
+haveged
+ntfs-3g
+exfatprogs
+dosfstools
+btrfs-progs
+xfsprogs
+e2fsprogs
+f2fs-tools
+jfsutils
+nilfs-utils
+smartmontools
+hdparm
+hwinfo
+usbutils
+dmidecode
+dmraid
+sg3_utils
+ethtool
+sof-firmware
+
+# === Pacman / AUR Tooling ===
+pacman-contrib
+rebuild-detector
+downgrade
+reflector
+yay
+
+# === EndeavourOS ===
+endeavouros-branding
+endeavouros-keyring
+endeavouros-mirrorlist
+eos-settings-i3wm
+eos-qogir-icons
+eos-lightdm-slick-theme
+eos-hooks
+eos-log-tool
+eos-packagelist
+eos-rankmirrors
+eos-quickstart
+eos-apps-info
+reflector-simple
+welcome
